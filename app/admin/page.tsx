@@ -178,20 +178,9 @@ export default function AdminPage() {
 
   return (
     <div className="container">
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "center",
-          marginBottom: "2rem",
-        }}
-      >
-        <h1 style={{ fontSize: "2rem", fontWeight: "800" }}>Admin Dashboard</h1>
-        <button
-          onClick={handleLogout}
-          className="btn"
-          style={{ width: "auto", padding: "0.75rem 1.5rem" }}
-        >
+      <div className="admin-header-flex">
+        <h1>Admin Dashboard</h1>
+        <button onClick={handleLogout} className="btn logout-btn">
           Logout
         </button>
       </div>
@@ -227,13 +216,7 @@ export default function AdminPage() {
         </div>
       </div>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(400px, 1fr))",
-          gap: "2rem",
-        }}
-      >
+      <div className="charts-grid">
         <div className="chart-container">
           <h3>Sentiment Distribution</h3>
           <Pie data={pieData} options={chartOptions} />
