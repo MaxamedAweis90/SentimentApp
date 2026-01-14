@@ -1,0 +1,128 @@
+{
+  "summary": {
+    "total_reviews": 20000,
+    "original_accuracy": 71.25,
+    "enhanced_accuracy": 88.14999999999999,
+    "net_improvement": 3380,
+    "improvement_count": 3871,
+    "regression_count": 491,
+    "change_percentage": 21.81
+  },
+  "accuracy_by_rating": [
+    {
+      "Rating": 1,
+      "Stars": "\u2b50",
+      "Count": 1824,
+      "Original_Accuracy": 39.25438596491228,
+      "Enhanced_Accuracy": 65.625,
+      "Improvement": 26.37061403508772,
+      "Original_Correct": 716,
+      "Enhanced_Correct": 1197
+    },
+    {
+      "Rating": 2,
+      "Stars": "\u2b50\u2b50",
+      "Count": 1120,
+      "Original_Accuracy": 25.0,
+      "Enhanced_Accuracy": 53.125,
+      "Improvement": 28.125,
+      "Original_Correct": 280,
+      "Enhanced_Correct": 595
+    },
+    {
+      "Rating": 3,
+      "Stars": "\u2b50\u2b50\u2b50",
+      "Count": 1649,
+      "Original_Accuracy": 19.648271679805944,
+      "Enhanced_Accuracy": 68.70830806549424,
+      "Improvement": 49.06003638568829,
+      "Original_Correct": 324,
+      "Enhanced_Correct": 1133
+    },
+    {
+      "Rating": 4,
+      "Stars": "\u2b50\u2b50\u2b50\u2b50",
+      "Count": 2836,
+      "Original_Accuracy": 80.39492242595205,
+      "Enhanced_Accuracy": 92.80677009873061,
+      "Improvement": 12.411847672778563,
+      "Original_Correct": 2280,
+      "Enhanced_Correct": 2632
+    },
+    {
+      "Rating": 5,
+      "Stars": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "Count": 12571,
+      "Original_Accuracy": 84.71879723172381,
+      "Enhanced_Accuracy": 96.03850131254474,
+      "Improvement": 11.319704080820927,
+      "Original_Correct": 10650,
+      "Enhanced_Correct": 12073
+    }
+  ],
+  "improvement_analysis": [
+    {
+      "Rating": 1,
+      "Stars": "\u2b50",
+      "Count": 1824,
+      "Improvements": 604,
+      "Regressions": 123,
+      "Net": 481,
+      "Improvement_Rate": 33.114035087719294
+    },
+    {
+      "Rating": 2,
+      "Stars": "\u2b50\u2b50",
+      "Count": 1120,
+      "Improvements": 376,
+      "Regressions": 61,
+      "Net": 315,
+      "Improvement_Rate": 33.57142857142857
+    },
+    {
+      "Rating": 3,
+      "Stars": "\u2b50\u2b50\u2b50",
+      "Count": 1649,
+      "Improvements": 848,
+      "Regressions": 39,
+      "Net": 809,
+      "Improvement_Rate": 51.42510612492419
+    },
+    {
+      "Rating": 4,
+      "Stars": "\u2b50\u2b50\u2b50\u2b50",
+      "Count": 2836,
+      "Improvements": 425,
+      "Regressions": 73,
+      "Net": 352,
+      "Improvement_Rate": 14.985895627644569
+    },
+    {
+      "Rating": 5,
+      "Stars": "\u2b50\u2b50\u2b50\u2b50\u2b50",
+      "Count": 12571,
+      "Improvements": 1618,
+      "Regressions": 195,
+      "Net": 1423,
+      "Improvement_Rate": 12.870893325908838
+    }
+  ],
+  "change_counts": {
+    "No Change": 14895,
+    "Improvement": 3871,
+    "Neutral Change": 743,
+    "Regression": 491
+  },
+  "confidence_distribution": {
+    "Low": 8021,
+    "Medium": 6063,
+    "High": 5916
+  },
+  "limitations": {
+    "neutral_low_confidence": "Neutral predictions have 0 high confidence cases",
+    "low_confidence_percentage": 40.1,
+    "star_3_accuracy": "3-star reviews had lowest accuracy (32.4% from earlier test)",
+    "production_readiness": "Suitable for demonstration, needs ML/hybrid for production"
+  },
+  "timestamp": "2026-01-13T17:14:09.696045"
+}
